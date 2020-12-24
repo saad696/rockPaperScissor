@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightgreen;
+  text-align: center;
+  padding: 10%;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 3rem;
+    color: #4ECCA3;
+  }
+
+h2, h3{
+     font-size: 2rem;
+     color: black;
+      font-family: 'Indie Flower', cursive;
+      
+}
+
+.jumbotron{
+    border-radius: 0%;
+    margin-bottom: 0%;
+}
+.card-container{
+    margin-top: 0%;
+    padding: 5%;
+}
+
+.logo-container{
+    margin-top: 6%;
+} 
+
+.logo{
+ width: 8%;
+ margin-left: 5%;
+ cursor: pointer;
+ transition: .5s;
+}
+
+.logo:hover{
+    transform: scale(1.3);
+}
+hr{
+    border: 1.5px solid #000;
+}
+#vertical-line{
+    border-left: 2px dashed black;
+}
+.dr, .cs{
+    border-left: 2px dashed black;
+}
+.card{
+    background-color: darkseagreen;
+    width: 15rem;
+
+}
+
+.comp-img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
